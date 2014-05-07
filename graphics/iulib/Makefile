@@ -3,7 +3,7 @@
 
 PORTNAME=	iulib
 PORTVERSION=	0.4
-PORTREVISION=	11
+PORTREVISION=	12
 CATEGORIES=	graphics
 MASTER_SITES=	GOOGLE_CODE
 EXTRACT_SUFX=	.tgz
@@ -13,7 +13,7 @@ COMMENT=	A library of image understanding-related algorithms
 
 LICENSE=	APACHE20
 
-LIB_DEPENDS=	libpng.so:${PORTSDIR}/graphics/png \
+LIB_DEPENDS=	libpng15.so:${PORTSDIR}/graphics/png \
 		libjpeg.so:${PORTSDIR}/graphics/jpeg \
 		libtiff.so:${PORTSDIR}/graphics/tiff
 
