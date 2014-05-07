@@ -1,2 +1,2 @@
-freebsd-nhocr
-=============
+freebsd-ocr
+===========
